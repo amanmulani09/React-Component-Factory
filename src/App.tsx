@@ -1,5 +1,11 @@
+import TabHeader from "./components/TabHeader";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <TabHeader />
+    </div>
+  );
 };
 
 export default App;
